@@ -1,6 +1,6 @@
 namespace Hjp.Shared.Dto.Users.Transactions
 {
-    public class UserTransactionResponseItem
+    public class UserTransactionsResponseItem
     {
         public required int TransactionTypeId { get; set; }
         public required string? FromUserName { get; set; }

@@ -2,7 +2,7 @@ using Hjp.Shared.Enums;
 
 namespace Hjp.Shared.Dto.Users.Transactions
 {
-    public class UserTransactionRequest
+    public class UserTransactionsRequest
     {
         public const string DirecitonAll = "all";
         public const string DirectionIn = "in";
@@ -31,12 +31,12 @@ namespace Hjp.Shared.Dto.Users.Transactions
         /// 取引方向
         /// </summary>
         /// <value>"all", "in", "out"</value>
-        public string? Direction { get; set; } = UserTransactionRequest.DirecitonAll;
+        public string? Direction { get; set; } = UserTransactionsRequest.DirecitonAll;
         /// <summary>
         /// 並び順
         /// </summary>
         /// <value>"asc", "desc"</value>
-        public string? Sort { get; set; } = UserTransactionRequest.SortDesc;
+        public string? Sort { get; set; } = UserTransactionsRequest.SortDesc;
         /// <summary>
         /// 取得開始位置
         /// </summary>
@@ -46,6 +46,6 @@ namespace Hjp.Shared.Dto.Users.Transactions
         /// </summary>
         /// <value>1~500</value>
         /// <remarks>default: 500</remarks>
-        public int? Limit { get; set; } = UserTransactionRequest.MaxTransactionGetCount;
+        public int? Limit { get; set; } = UserTransactionsRequest.MaxTransactionGetCount;
     }
 }
