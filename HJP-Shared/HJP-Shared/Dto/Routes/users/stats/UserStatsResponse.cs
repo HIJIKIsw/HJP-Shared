@@ -2,9 +2,9 @@ namespace Hjp.Shared.Dto
 {
     public class UserStatsResponse
     {
-        public ulong DiscordUserId { get; set; }
-        public int TotalDeposit { get; set; }
-        public int TotalWithdraw { get; set; }
-        public int TotalTransfer { get; set; }
+        public required ulong DiscordUserId { get; set; }
+        public required int TotalDeposit { get; set; }
+        public required int TotalWithdraw { get; set; }
+        public required int TotalTransfer { get; set; }
     }
 }
