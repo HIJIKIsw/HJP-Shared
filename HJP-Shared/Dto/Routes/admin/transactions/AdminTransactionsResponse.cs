@@ -1,3 +1,5 @@
+using Hjp.Shared.Dto.Users.Transactions;
+
 namespace Hjp.Shared.Dto.Admin.Transactions
 {
     public class AdminTransactionsResponse : UserTransactionResponse
