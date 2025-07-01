@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto
+namespace Hjp.Shared.Dto.Users.Transactions
 {
     public class UserTransactionResponseItem
     {

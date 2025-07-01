@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Admin
+namespace Hjp.Shared.Dto.Admin.Users
 {
     public class AdminUserResponse : UserResponse
     {

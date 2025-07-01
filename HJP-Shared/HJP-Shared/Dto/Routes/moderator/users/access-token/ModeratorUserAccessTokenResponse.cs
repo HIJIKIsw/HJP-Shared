@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Moderator
+namespace Hjp.Shared.Dto.Moderator.Users.AccessToken
 {
     public class ModeratorUserAccessTokenResponse
     {
