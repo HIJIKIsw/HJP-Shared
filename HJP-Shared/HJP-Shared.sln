@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HJP-Shared", "HJP-Shared\HJP-Shared.csproj", "{2935C100-CE27-4C69-ADB7-DC972B12C5F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2935C100-CE27-4C69-ADB7-DC972B12C5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2935C100-CE27-4C69-ADB7-DC972B12C5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2935C100-CE27-4C69-ADB7-DC972B12C5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2935C100-CE27-4C69-ADB7-DC972B12C5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {449D14F3-2205-45DF-B5CF-B6A3DAFF2041}
+	EndGlobalSection
+EndGlobal
