@@ -6,6 +6,6 @@ namespace Hjp.Shared.Dto.Admin.Users
     public class AdminUserResponse : UserResponse
     {
         public required int CurrencyAmount { get; set; }
-        public required PermissionType PermissionTypeId { get; set; }
+        public required PermissionType PermissionType { get; set; }
     }
 }
