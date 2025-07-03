@@ -8,5 +8,8 @@ namespace Hjp.Shared.Entities
         [StringLength(128)]
         public required string Name { get; set; }
         public required ulong DiscordUserId { get; set; }
+        [Url]
+        [StringLength(512)]
+        public required string AvatarUrl { get; set; }
     }
 }
