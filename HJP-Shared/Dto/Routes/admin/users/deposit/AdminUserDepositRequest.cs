@@ -1,4 +1,4 @@
-using Hjp.Shared.Dto.Users.Deposit;
+using Hjp.Shared.Dto.Users.Me.Deposit;
 
 namespace Hjp.Shared.Dto.Admin.Users.Deposit
 {

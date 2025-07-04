@@ -1,6 +1,6 @@
-namespace Hjp.Shared.Dto.Users.Withdraw
+namespace Hjp.Shared.Dto.Users.Me.Deposit
 {
-    public class UserWithdrawResponse
+    public class UserDepositResponse
     {
         public required int BeforeAmount { get; set; }
         public required int AfterAmount { get; set; }

@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Withdraw
+namespace Hjp.Shared.Dto.Users.Me.Withdraw
 {
     public class UserWithdrawRequest
     {

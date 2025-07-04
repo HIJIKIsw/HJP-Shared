@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Balance
+namespace Hjp.Shared.Dto.Users.Me.Balance
 {
     public class UserBalanceResponse
     {

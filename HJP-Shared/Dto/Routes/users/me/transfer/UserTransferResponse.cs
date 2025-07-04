@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Transfer
+namespace Hjp.Shared.Dto.Users.Me.Transfer
 {
     public class UserTransferResponse
     {

@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Deposit
+namespace Hjp.Shared.Dto.Users.Me.Deposit
 {
     public class UserDepositRequest
     {

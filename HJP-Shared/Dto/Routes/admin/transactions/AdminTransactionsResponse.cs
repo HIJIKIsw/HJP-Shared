@@ -1,4 +1,4 @@
-using Hjp.Shared.Dto.Users.Transactions;
+using Hjp.Shared.Dto.Users.Me.Transactions;
 
 namespace Hjp.Shared.Dto.Admin.Transactions
 {

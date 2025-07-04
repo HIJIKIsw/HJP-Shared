@@ -1,6 +1,6 @@
 using Hjp.Shared.Enums;
 
-namespace Hjp.Shared.Dto.Users.Transactions
+namespace Hjp.Shared.Dto.Users.Me.Transactions
 {
     public class UserTransactionsRequest
     {
