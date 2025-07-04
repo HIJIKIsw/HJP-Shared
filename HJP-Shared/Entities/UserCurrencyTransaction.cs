@@ -12,6 +12,8 @@ namespace Hjp.Shared.Entities
         public int? ToUserId { get; set; }
         public User? ToUser { get; set; }
         public int Amount { get; set; }
+        public int? FromUserBalanceAfter { get; set; }
+        public int? ToUserBalanceAfter { get; set; }
         [StringLength(128)]
         public string? Description { get; set; }
     }
