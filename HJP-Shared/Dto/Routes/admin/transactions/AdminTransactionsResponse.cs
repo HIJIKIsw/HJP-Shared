@@ -1,9 +1,7 @@
-using Hjp.Shared.Dto.Users.Me.Transactions;
-
 namespace Hjp.Shared.Dto.Admin.Transactions
 {
-    public class AdminTransactionsResponse : UserTransactionsResponse
+    public class AdminTransactionsResponse
     {
-        // Nothing to do.
+        public required List<AdminTransactionsResponseItem> Transactions { get; set; }
     }
 }

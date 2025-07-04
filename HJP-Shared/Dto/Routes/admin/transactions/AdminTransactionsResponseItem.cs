@@ -1,6 +1,6 @@
-namespace Hjp.Shared.Dto.Users.Me.Transactions
+namespace Hjp.Shared.Dto.Admin.Transactions
 {
-    public class UserTransactionsResponseItem
+    public class AdminTransactionsResponseItem
     {
         public required int TransactionTypeId { get; set; }
         public required string? FromUserName { get; set; }
@@ -8,7 +8,8 @@ namespace Hjp.Shared.Dto.Users.Me.Transactions
         public required string? ToUserName { get; set; }
         public required ulong? ToDiscordUserId { get; set; }
         public required int Amount { get; set; }
-        public required int BalanceAfter { get; set; }
+        public required int? ToUserBalanceAfter { get; set; }
+        public required int? FromUserBalanceAfter { get; set; }
         public required string? Description { get; set; }
         public required DateTime DateTime { get; set; }
     }
