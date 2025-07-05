@@ -38,7 +38,6 @@ namespace Hjp.Shared.Dto.Users.Me.Transactions
         /// 取得件数
         /// </summary>
         /// <value>1~500</value>
-        /// <remarks>default: 500</remarks>
-        public int? Limit { get; set; } = UserTransactionsRequest.MaxTransactionGetCount;
+        public int? Limit { get; set; }
     }
 }
