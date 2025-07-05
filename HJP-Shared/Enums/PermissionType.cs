@@ -10,11 +10,11 @@ namespace Hjp.Shared.Enums
         [Display(Name = "一般ユーザ")]
         User,
 
+        [Display(Name = "モデレータ")]
+        Moderator,
+
         [Display(Name = "管理者")]
         Admin,
-
-        [Display(Name = "モデレータ")]
-        Moderator
     }
 
     public static class PermissionTypeExtensions
