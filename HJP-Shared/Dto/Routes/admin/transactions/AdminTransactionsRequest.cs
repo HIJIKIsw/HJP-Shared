@@ -4,8 +4,6 @@ namespace Hjp.Shared.Dto.Admin.Transactions
 {
     public class AdminTransactionsRequest
     {
-        public const string SortAsc = "asc";
-        public const string SortDesc = "desc";
         public const int MaxTransactionGetCount = 1000;
 
         /// <summary>
@@ -36,7 +34,7 @@ namespace Hjp.Shared.Dto.Admin.Transactions
         /// 並び順
         /// </summary>
         /// <value>"asc", "desc"</value>
-        public string? Sort { get; set; } = AdminTransactionsRequest.SortDesc;
+        public SortOrder? Sort { get; set; } = SortOrder.Descending;
         /// <summary>
         /// 取得開始位置
         /// </summary>

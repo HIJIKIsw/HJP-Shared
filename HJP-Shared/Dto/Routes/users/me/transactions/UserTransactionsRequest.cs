@@ -4,11 +4,6 @@ namespace Hjp.Shared.Dto.Users.Me.Transactions
 {
     public class UserTransactionsRequest
     {
-        public const string DirecitonAll = "all";
-        public const string DirectionIn = "in";
-        public const string DirectionOut = "out";
-        public const string SortAsc = "asc";
-        public const string SortDesc = "desc";
         public const int MaxTransactionGetCount = 500;
 
         /// <summary>
@@ -28,15 +23,13 @@ namespace Hjp.Shared.Dto.Users.Me.Transactions
         /// </summary>
         public ulong? Counterparty { get; set; }
         /// <summary>
-        /// 取引方向
+        /// 取得ユーザから見た取引方向
         /// </summary>
-        /// <value>"all", "in", "out"</value>
-        public string? Direction { get; set; } = UserTransactionsRequest.DirecitonAll;
+        public TransactionDirection? Direction { get; set; } = TransactionDirection.All;
         /// <summary>
         /// 並び順
         /// </summary>
-        /// <value>"asc", "desc"</value>
-        public string? Sort { get; set; } = UserTransactionsRequest.SortDesc;
+        public SortOrder? Sort { get; set; } = SortOrder.Descending;
         /// <summary>
         /// 取得開始位置
         /// </summary>
