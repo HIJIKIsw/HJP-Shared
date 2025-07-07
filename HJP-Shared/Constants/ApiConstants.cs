@@ -9,7 +9,7 @@ namespace Hjp.Shared.Constants
             public const string UserName = Prefix + "UserName";
             public const string DiscordUserId = Prefix + "DiscordUserId";
             public const string AvatarUrl = Prefix + "AvatarUrl";
-            public const string PermissionType = Prefix + "PermissionType";
+            public const string PermissionTypeId = Prefix + "PermissionTypeId";
         }
     }
 }
