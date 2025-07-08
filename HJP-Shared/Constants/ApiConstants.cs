@@ -2,6 +2,8 @@ namespace Hjp.Shared.Constants
 {
     public static class ApiConstants
     {
+        public const string AuthenticationScheme = "Bearer";
+
         public static class HeaderNames
         {
             public const string Nonce = "X-Nonce";
