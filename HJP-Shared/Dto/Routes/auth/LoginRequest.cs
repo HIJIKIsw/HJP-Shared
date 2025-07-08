@@ -1,6 +1,6 @@
 using Hjp.Shared.Enums;
 
-namespace Hjp.Shared.Dto.Routes.auth
+namespace Hjp.Shared.Dto.Auth
 {
     public class LoginRequest
     {
