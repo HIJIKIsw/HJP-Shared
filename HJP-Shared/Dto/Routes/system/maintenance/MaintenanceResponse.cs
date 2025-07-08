@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Maintenance
+namespace Hjp.Shared.Dto.System.Maintenance
 {
     public class MaintenanceResponse
     {

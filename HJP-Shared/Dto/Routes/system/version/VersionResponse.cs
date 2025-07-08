@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Routes.version
+namespace Hjp.Shared.Dto.System.Version
 {
     public class VersionResponse
     {
