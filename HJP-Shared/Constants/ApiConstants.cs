@@ -2,6 +2,11 @@ namespace Hjp.Shared.Constants
 {
     public static class ApiConstants
     {
+        public static class HeaderNames
+        {
+            public const string Nonce = "X-Nonce";
+        }
+
         public static class ClaimTypes
         {
             private const string Prefix = "Hjp.Api.";
