@@ -7,19 +7,19 @@ namespace Hjp.Shared.Enums
     {
         None = 0,
 
-        [Display(Name = "ユーザによる入金")]
+        [Display(Name = "活動で得た")]
         UserDeposit,
 
-        [Display(Name = "ユーザによる出金")]
+        [Display(Name = "使用")]
         UserWithdraw,
 
-        [Display(Name = "システムからの付与")]
+        [Display(Name = "システムによる付与")]
         SystemDeposit,
 
         [Display(Name = "システムによる減額")]
         SystemWithdraw,
 
-        [Display(Name = "ユーザ間送金")]
+        [Display(Name = "ユーザー間送ポ")]
         UserTransfer,
 
         [Display(Name = "くじの購入/当選")]
