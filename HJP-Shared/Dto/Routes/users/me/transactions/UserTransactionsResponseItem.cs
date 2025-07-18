@@ -1,5 +1,6 @@
 namespace Hjp.Shared.Dto.Users.Me.Transactions
 {
+    // TODO: ユーザ目線では、自身の情報は不要なので、in/outのフラグとcounterpartyの情報だけ渡すようにしてもよいかも
     public class UserTransactionsResponseItem
     {
         public required int TransactionTypeId { get; set; }
