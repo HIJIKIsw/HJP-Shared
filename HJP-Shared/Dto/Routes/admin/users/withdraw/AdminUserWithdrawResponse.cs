@@ -1,4 +1,4 @@
-using Hjp.Shared.Dto.Users.Me.Withdraw;
+using Hjp.Shared.Dto.Me.Withdraw;
 
 namespace Hjp.Shared.Dto.Admin.Users.Withdraw
 {
