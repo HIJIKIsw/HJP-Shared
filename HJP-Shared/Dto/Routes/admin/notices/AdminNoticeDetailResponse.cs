@@ -1,0 +1,11 @@
+namespace Hjp.Shared.Dto.Admin.Notices
+{
+    public class AdminNoticeDetailResponse
+    {
+        public required int Id { get; set; }
+        public required string Title { get; set; }
+        public required string Body { get; set; }
+        public required DateTime CreatedAt { get; set; }
+        public required DateTime? PublishedAt { get; set; }
+    }
+}
