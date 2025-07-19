@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Routes.Lottery
+namespace Hjp.Shared.Dto.Lottery
 {
     public class LotteryBankResponse
     {
