@@ -1,11 +1,9 @@
+using Hjp.Shared.Dto.Users.Search;
 
 namespace Hjp.Shared.Dto.Admin.Users.Search
 {
-    public class AdminUserSearchRequest
+    public class AdminUserSearchRequest : UserSearchRequest
     {
-        public string? UserName { get; set; }
-        public bool IsPartialMatchUserName { get; set; }
-        public ulong? DiscordUserId { get; set; }
-        public bool IsPartialMatchDiscordUserId { get; set; }
+        // Nothing to do.
     }
 }

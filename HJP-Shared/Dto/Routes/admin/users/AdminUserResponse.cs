@@ -1,4 +1,4 @@
-using Hjp.Shared.Dto.Users.Me;
+using Hjp.Shared.Dto.Me;
 using Hjp.Shared.Enums;
 
 namespace Hjp.Shared.Dto.Admin.Users
