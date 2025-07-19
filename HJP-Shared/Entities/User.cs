@@ -11,5 +11,6 @@ namespace Hjp.Shared.Entities
         [Url]
         [StringLength(512)]
         public required string AvatarUrl { get; set; }
+        public bool IsSystemUser { get; set; }
     }
 }
