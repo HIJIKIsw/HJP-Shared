@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Me.Stats
+namespace Hjp.Shared.Dto.Me.Stats
 {
     public class UserStatsResponse
     {

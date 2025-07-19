@@ -1,4 +1,4 @@
-namespace Hjp.Shared.Dto.Users.Me
+namespace Hjp.Shared.Dto.Me
 {
     public class UserResponse
     {
