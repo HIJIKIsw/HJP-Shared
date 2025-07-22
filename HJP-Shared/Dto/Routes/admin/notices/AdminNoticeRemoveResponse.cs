@@ -1,6 +1,6 @@
 namespace Hjp.Shared.Dto.Admin.Notices
 {
-    public class AdminNoticesRemoveResponse
+    public class AdminNoticeRemoveResponse
     {
         public required int Id { get; set; }
     }
