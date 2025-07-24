@@ -9,7 +9,7 @@ namespace Hjp.Shared.Dto.Me.Transactions
         /// <summary>
         /// 取引種別
         /// </summary>
-        public List<TransactionType>? Types { get; set; }
+        public TransactionType[]? Types { get; set; }
         /// <summary>
         /// 取得開始日
         /// </summary>

@@ -9,11 +9,11 @@ namespace Hjp.Shared.Dto.Admin.Transactions
         /// <summary>
         /// 取引種別
         /// </summary>
-        public List<TransactionType>? Types { get; set; }
+        public TransactionType[]? Types { get; set; }
         /// <summary>
         /// 取引に関連するユーザのDiscordUserId
         /// </summary>
-        public List<ulong>? RelatedDiscordUserIds { get; set; }
+        public ulong[]? RelatedDiscordUserIds { get; set; }
         /// <summary>
         /// 送金者のDiscordUserId
         /// </summary>
