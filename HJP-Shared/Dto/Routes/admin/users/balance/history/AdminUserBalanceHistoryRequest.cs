@@ -1,20 +1,9 @@
-using Hjp.Shared.Enums;
+using Hjp.Shared.Dto.Me.Balance.History;
 
 namespace Hjp.Shared.Dto.Admin.Users.Balance.History
 {
-    public class AdminUserBalanceHistoryRequest
+    public class AdminUserBalanceHistoryRequest : UserBalanceHistoryRequest
     {
-        /// <summary>
-        /// 取得開始日
-        /// </summary>
-        public required DateOnly From { get; set; }
-        /// <summary>
-        /// 取得終了日
-        /// </summary>
-        public required DateOnly To { get; set; }
-        /// <summary>
-        /// 並び順
-        /// </summary>
-        public SortOrder? Sort { get; set; } = SortOrder.Ascending;
+        // Nothing to do.
     }
 }
