@@ -7,14 +7,14 @@ namespace Hjp.Shared.Dto.Me.Balance.History
         /// <summary>
         /// 取得開始日
         /// </summary>
-        public DateOnly? From { get; set; }
+        public required DateOnly From { get; set; }
         /// <summary>
         /// 取得終了日
         /// </summary>
-        public DateOnly? To { get; set; }
+        public required DateOnly To { get; set; }
         /// <summary>
         /// 並び順
         /// </summary>
-        public SortOrder? Sort { get; set; } = SortOrder.Descending;
+        public SortOrder? Sort { get; set; } = SortOrder.Ascending;
     }
 }
