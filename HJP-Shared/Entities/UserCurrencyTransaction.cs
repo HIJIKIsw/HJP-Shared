@@ -7,6 +7,8 @@ namespace Hjp.Shared.Entities
         public int Id { get; set; }
         public required int TransactionTypeId { get; set; }
         public TransactionTypeMaster TransactionType { get; set; } = null!;
+        public int? IntegrationApplicationId { get; set; }
+        public IntegrationApplication? IntegrationApplication { get; set; }
         public int? FromUserId { get; set; }
         public User? FromUser { get; set; }
         public int? ToUserId { get; set; }
