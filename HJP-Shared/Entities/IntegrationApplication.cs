@@ -9,5 +9,6 @@ namespace Hjp.Shared.Entities
         public required string Name { get; set; }
         public required int ApplicationId { get; set; }
         public required string? IconUrl { get; set; }
+        public bool IsVisible { get; set; }
     }
 }
