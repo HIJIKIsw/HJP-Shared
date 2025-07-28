@@ -5,6 +5,7 @@ namespace Hjp.Shared.Dto.Admin.Transactions
         public required int TransactionTypeId { get; set; }
         public required string IntegrationApplicationName { get; set; }
         public required int IntegrationApplicationId { get; set; }
+        public required bool IsIntegrationApplicationVisible { get; set; }
         public required string? IntegrationApplicationIconUrl { get; set; }
         public required string? FromUserName { get; set; }
         public required ulong? FromDiscordUserId { get; set; }
