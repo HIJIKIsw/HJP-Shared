@@ -1,6 +1,6 @@
 namespace Hjp.Shared.Dto.Admin.IntegrationApplications
 {
-    public class AdminIntegrationApplicationPostRequest
+    public class AdminIntegrationApplicationRegisterResponse
     {
         public required int ApplicationId { get; set; }
         public required string Name { get; set; }
