@@ -1,6 +1,6 @@
 namespace Hjp.Shared.Dto.Admin.IntegrationApplications
 {
-    public class AdminIntegrationApplicationEditResponse : AdminIntegrationApplicationPostResponse
+    public class AdminIntegrationApplicationEditResponse : AdminIntegrationApplicationRegisterResponse
     {
         // Nothing to do.
     }
