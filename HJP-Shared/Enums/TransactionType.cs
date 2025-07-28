@@ -23,7 +23,10 @@ namespace Hjp.Shared.Enums
         UserTransfer,
 
         [Display(Name = "くじの購入/当選")]
-        UserLottery
+        UserLottery,
+
+        [Display(Name = "サーバー活動報酬")]
+        ServerActivityRewards,
     }
 
     public static class TransactionTypeExtensions
