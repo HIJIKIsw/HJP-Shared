@@ -4,6 +4,6 @@ namespace Hjp.Shared.Dto.Admin.Users.Purchase
 {
     public class AdminUserPurchaseResponse : AdminUserWithdrawResponse
     {
-        // Nothin to do.
+        // Nothing to do.
     }
 }
